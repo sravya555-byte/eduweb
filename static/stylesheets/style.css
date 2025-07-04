@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+div{
+border:1px solid grey;
+width:45%;
+float:left;
+height:200px;
+text-align:center;
+margin:20px;
+
+}
+h1{
+color:red;
+background-color:yellow;
+}
+
+button{
+width:150px;
+background-color:green;
+color:white;
+}
+button:hover{
+  background-color:indigo;
+  color:white;
+}
+h2{
+text-align:center;
+}

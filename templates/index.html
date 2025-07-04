@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>add-admission</title>
+    <link rel="stylesheet" type="text/css" href="{% static "stylesheets/style.css" %}" />
+  </head>
+  <body>
+     <h2>  <img src="{% static "images/logo.jpg" %}" alt="image not found" style="width:30px;height:30px;"/>
+       Nice Computers Academy
+     </h2>
+     <br/><hr/><br/><br/><br/><br/><br/>
+
+      <div>
+        <h1>ADMISSIONS</h1><br/>
+        <a href="/ad/newadm"><button type="button" name="button">Add-Admission</button> <a/> <br/><br/>
+          <a href="/ad/admreport"><button type="button" name="button">Admission-Report</button> <a/><br/><br/>
+      </div>
+
+
+      <div>
+        <h1>FINANCE</h1><br/>
+          <a href="/fin/feecoll"><button type="button" name="button">Fee-Collection</button> <a/><br/><br/>
+          <a href="/fin/duesreport"><button type="button" name="button">Fee-DuesReport</button> <a/><br/><br/>
+          <a href="/fin/collectionreport"><button type="button" name="button">Fee-CollectionReport</button> <a/><br/><br/>
+      </div>
+  
+      <br/>  <br/>  <br/>  <br/>  <br/>
+  <a href="/accounts/logout">Logout</a>
+
+  </body>
+</html>
